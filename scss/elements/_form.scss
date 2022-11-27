@@ -1,0 +1,53 @@
+@use '../global/variables' as *;
+@use 'button' as *;
+
+
+.form{
+    position: absolute;
+    top: 5rem;
+    right: 1.3rem;
+    width: 20rem;
+    height: 100px;
+    background: $color-dark-blue;
+    display: none;
+    padding: 1.5rem;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: $shadow;
+
+    &-input{
+        width: 100%;
+        padding: .9rem 0;
+        margin: .7rem 0;
+        font-size: .9rem;
+        border: none;
+        border-bottom: $border;
+        border-width: .05rem;
+    }
+// button
+    .btn{
+        width: 100%;
+        transition: .2s linear;
+        margin-bottom: 1.7rem;
+        background-color: $color-white;
+
+        &:hover{
+            background: $color-dark-blue
+        }
+    }
+
+// links
+    .links{
+        display: flex;
+        justify-content: space-between;
+        font-size: .8rem;
+
+        a{
+        color: $color-orange;
+        &:hover{
+            text-decoration: underline;
+            color: $color-dark-blue;
+        }
+        }
+    }
+}

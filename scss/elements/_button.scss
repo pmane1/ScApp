@@ -1,0 +1,23 @@
+@use '../global/variables' as *;
+
+
+// hover-> od left top przejście
+
+.btn{
+    border: $border;
+    font-size: 1.6rem;
+    padding: .6rem 6rem;
+    border-radius: 0.3rem;
+    color: $color-dark-blue;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    margin: 1rem 0;
+    font-family: 'Belleza', sans-serif;
+
+    &:hover{
+        background: $color-dark-blue;
+        transition: .7s ease-out;
+        color: $color-white;
+    }
+}

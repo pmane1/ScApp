@@ -1,0 +1,11 @@
+@use '../global/variables' as *;
+
+h2{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 2.9rem;
+    margin-bottom: 0.8rem;
+    color: $color-dark-blue;
+    text-align: center;
+    text-transform: uppercase;
+}
