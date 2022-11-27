@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/favicon_scapp.png" type="image/x-icon">
+    <title>ScApp</title>
+</head>
+<body>
+    <!-- top -->
+    <div class="top container">
+        <a class="logo" href="#"><img src="image/scapp_logo.png"></a>
+        <!-- nav -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#solution">Produkt</a>
+            <a href="#zysk">Dlaczego ScApp</a>
+            <a href="#about">O marce</a>
+            <a href="rozwoj.html">Rozwój</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+
+        <!-- icons -->
+        <div class="icons">
+            <!-- menu -->
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <!-- shopping-> header -->
+            <a href="#" class="fas fa-shopping-cart"></a>
+            
+            <!-- login -->
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="form">
+            <h3>Sign In</h3>
+            <input type="email" placeholder="enter your email" class="form-input">
+            <input type="password" placeholder="enter your password" class="form-input">
+
+            <div class="remember">
+            <input type="checkbox" id="check">
+            <label for="check">Remember Me</label>
+            </div>
+
+                <button class="btn" type="submit">Sign in</button>
+
+            <div class="links">
+                <a href="#">Forget Password</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </form>
+    </div>
+
+    <!-- co to scapp -->
+        <header id="try_about">
+        <div></div>
+        <div class="try_about_description">
+            <div class="description">
+            <h2>Czym jest ScApp?</h2>
+            <p>ScApp to aplikacja pozwalająca zautomatyzować proces meblowania i wizualizowania mieszkań. Jest gwarancją realnych wymiarów, która deweloperom dodaje wiarygodności i zaufania, a nabywcom pewności.</p>
+            </div>
+            <div class="zalety">
+                <h3>Dlaczego?</h3>
+                <ul>
+                    <li>oszczędzasz pieniądze</li>
+                    <li>zyskujesz czas</li>
+                    <li>zyskujesz zaufanie klientów</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- vs -->
+        <section id="try_vs">
+            <img src="image/v.png">
+            <h2>VS</h2>
+            <img src="image/s.png">
+        </section>
+        <!--  -->
+        <section id="solutions" class="try">
+            <h2 class="chcesz">Chcesz wypróbować?</h2>
+            <div class="btns">
+            <button class="btn">Sprawdź wersję DEMO</button>
+            <button class="btn">Zapisz się na szkolenie</button>
+            </div>
+        </section>
+        <!-- partnerzy -->
+<section id="zysk" class="partners partners_try">
+    <h2>Zaufali nam:</h2>
+    <div class="boxes zaufali">
+        <img src="image/siuta.png">
+        <img src="image/deka.png">
+        <img src="image/wood.png">
+    </div>
+</section>
+<!-- contact -->
+<section id="contact">
+    <div class="contact">
+        <div class="contact-adress">
+            <p><i class="fas fa-home"></i>ul. Xxx</p>
+            <p><i class="fas fa-mail-bulk"></i>xx-xxx Wrocław</p>
+            <p><i class="fas fa-envelope"></i>xxxx@xxxxx.xxx</p>
+            <p><i class="fas fa-phone-alt"></i>111 222 333</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div> 
+    <div class="contact-login">
+        <h2>Skontaktujmy się:</h2>
+        <form action="" class="contact-form">
+            <input class="contact-form-item" type="name" id="name" placeholder="imię">
+            <input class="contact-form-item" type="email" id="email" placeholder="email">
+            <input class="contact-form-item" type="tumber" id="number" placeholder="temat">
+            <textarea class="contact-form-item" id="message" placeholder="wiadomość" cols="30" rows="4"></textarea>
+            <input type="submit" class="btn" value="Wyślij">
+        </form>
+    </div>
+    </div>
+</section>
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>
