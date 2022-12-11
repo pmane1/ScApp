@@ -105,7 +105,7 @@ section, header {
 .btn {
   border: 0.1rem solid #2f4438;
   font-size: 1.6rem;
-  padding: 0.6rem 6rem;
+  padding: 0.6rem 5rem;
   border-radius: 0.3rem;
   color: #2f4438;
   cursor: pointer;
@@ -692,7 +692,7 @@ header img {
 }
 @media screen and (max-width: 768px) {
   .dotarcie h2 {
-    font-size: 2.7rem;
+    font-size: 2.4rem;
   }
 }
 .dotarcie .dotarcie_descrip {
@@ -710,7 +710,7 @@ header img {
 }
 @media screen and (max-width: 768px) {
   .dotarcie .dotarcie_descrip {
-    gap: 1rem;
+    gap: .8rem;
   }
 }
 
