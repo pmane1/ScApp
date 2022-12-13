@@ -435,6 +435,10 @@ header img {
   display: flex;
   flex-direction: column;
 }
+video{
+        display: block;
+        margin: 0 auto;
+    }
 #solution .strzałka {
   width: 9%;
   padding: 1rem;
