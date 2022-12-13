@@ -114,11 +114,6 @@ section, header {
   margin: 1rem 0;
   font-family: "Belleza", sans-serif;
 }
-@media screen and (max-width: 991px) {
-  .btn {
-    padding: 0.6rem 3rem;
-  }
-}
 .btn:hover {
   background: #2f4438;
   transition: 0.7s ease-out;
@@ -701,7 +696,7 @@ header img {
 }
 @media screen and (max-width: 768px) {
   .dotarcie h2 {
-    font-size: 2.2rem;
+    font-size: 2.7rem;
   }
 }
 .dotarcie .dotarcie_descrip {
@@ -714,12 +709,12 @@ header img {
 .dotarcie .dotarcie_descrip a {
   color: #f9f9f9;
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding-top: 1rem;
 }
 @media screen and (max-width: 768px) {
   .dotarcie .dotarcie_descrip {
-    gap: .6rem;
+    gap: 1rem;
   }
 }
 
